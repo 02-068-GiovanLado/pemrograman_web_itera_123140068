@@ -1,4 +1,4 @@
-# 📚 Task Master - Aplikasi Manajemen Tugas Akademik
+# Aplikasi Manajemen Tugas Akademik
 
 ## 📖 Deskripsi Aplikasi
 
