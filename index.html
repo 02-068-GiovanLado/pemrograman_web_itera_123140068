@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen Tugas Akademik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Manajemen Tugas Akademik</h1>
+            <p class="subtitle">Kelola aktivitas akademik Anda dengan praktis</p>
+        </header>
+
+        <main>
+            <!-- Form Tambah Tugas -->
+            <section class="form-section">
+                <h2>Tambah Tugas Baru</h2>
+                <form id="taskForm">
+                    <div class="form-group">
+                        <label for="taskName">Nama Tugas *</label>
+                        <input 
+                            type="text" 
+                            id="taskName" 
+                            placeholder="Contoh: Buat resume penelitian" 
+                            required
+                        >
+                        <span class="error" id="nameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="taskCourse">Mata Kuliah *</label>
+                        <input 
+                            type="text" 
+                            id="taskCourse" 
+                            placeholder="Contoh: Pemrograman Web" 
+                            required
+                        >
+                        <span class="error" id="courseError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="taskDeadline">Deadline *</label>
+                        <input 
+                            type="datetime-local" 
+                            id="taskDeadline" 
+                            required
+                        >
+                        <span class="error" id="deadlineError"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Tambah Tugas</button>
+                </form>
+            </section>
+
+            <!-- Filter dan Pencarian -->
+            <section class="filter-section">
+                <div class="filter-controls">
+                    <div class="search-box">
+                        <input 
+                            type="text" 
+                            id="searchInput" 
+                            placeholder="🔍 Cari tugas..." 
+                        >
+                    </div>
+
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">Semua</button>
+                        <button class="filter-btn" data-filter="pending">Belum Selesai</button>
+                        <button class="filter-btn" data-filter="completed">Selesai</button>
+                    </div>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-label">Total Tugas:</span>
+                        <span class="stat-value" id="totalTasks">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Belum Selesai:</span>
+                        <span class="stat-value pending-count" id="pendingTasks">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Selesai:</span>
+                        <span class="stat-value completed-count" id="completedTasks">0</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Daftar Tugas -->
+            <section class="tasks-section">
+                <div id="tasksList" class="tasks-list">
+                    <p class="empty-message">Tidak ada tugas. Mulai tambahkan tugas baru! ✨</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Aplikasi Manajemen Tugas Akademik | Dibuat untuk Mahasiswa</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
