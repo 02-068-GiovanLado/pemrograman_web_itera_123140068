@@ -232,4 +232,11 @@ function filterTasks() {
 - Selesai: Hanya tugas dengan `completed = true`
 
 ---
+<img width="1920" height="1080" alt="Screenshot (326)" src="https://github.com/user-attachments/assets/d9d88e0b-b903-4e13-8fb3-ce54895ecd98" />
+---
+<img width="1920" height="1080" alt="Screenshot (327)" src="https://github.com/user-attachments/assets/1c8ddeaa-3610-4811-8d10-6e882881cac1" />
+---
+<img width="1920" height="1080" alt="Screenshot (328)" src="https://github.com/user-attachments/assets/2ae4d6b2-fe2b-475d-836e-38afc1fb525d" />
+
+
 
