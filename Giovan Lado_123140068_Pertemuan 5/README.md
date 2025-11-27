@@ -28,4 +28,8 @@ Program dijalankan secara interaktif. Contoh alur penggunaan:
 - **Polymorphism**: Method `display_info()` diimplementasikan secara berbeda oleh subclass.
 - **Property Decorator**: Digunakan pada atribut `title` di `LibraryItem`.
 
+<img width="804" height="529" alt="image" src="https://github.com/user-attachments/assets/df29f2f3-967d-487c-a6b4-8fc2a4b363e8" />
+<img width="739" height="350" alt="image" src="https://github.com/user-attachments/assets/31e834ea-ddf4-4e43-b9e2-2c2a28132845" />
+<img width="771" height="357" alt="image" src="https://github.com/user-attachments/assets/a03af729-d28b-4408-ad00-f91c3a1a4047" />
+
 ---
