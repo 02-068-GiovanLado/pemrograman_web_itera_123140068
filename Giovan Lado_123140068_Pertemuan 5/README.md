@@ -17,8 +17,10 @@ Program ini adalah implementasi sederhana dari sistem manajemen perpustakaan men
 ## Contoh Penggunaan
 Program dijalankan secara interaktif. Contoh alur penggunaan:
 - Pilih menu 1 untuk menambahkan buku.
+- Pilih menu 2 untuk menambah majalah.
 - Pilih menu 3 untuk melihat daftar item.
 - Pilih menu 4 untuk mencari item.
+- Pilih menu 5 untuk keluar.
 
 ## Konsep OOP yang Diterapkan
 - **Abstract Class & Inheritance**: `LibraryItem` sebagai kelas dasar, `Book` dan `Magazine` mewarisinya.
